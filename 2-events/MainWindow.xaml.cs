@@ -60,5 +60,21 @@ namespace _2_events
                 Firstname.Text = "Введите свое имя";
             }
         }
+
+        private void Lastname_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (Lastname.Text == "Введите свою фамилию")
+            {
+                Lastname.Text = "";
+            }
+        }
+
+        private void Lastname_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if (Lastname.Text == "")
+            {
+                Lastname.Text = "Введите свою фамилию";
+            }
+        }
     }
 }

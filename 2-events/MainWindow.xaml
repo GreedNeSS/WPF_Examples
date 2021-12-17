@@ -40,7 +40,7 @@
                    Style="{StaticResource BigLetter}"/>
 
         <TextBox x:Name="Firstname" GotFocus="Firstname_GotFocus" LostFocus="Firstname_LostFocus" Text="Введите свое имя" Grid.Row="0" Grid.Column="1"/>
-        <TextBox x:Name="Lastname" Text="Введите свою фамилию" Grid.Row="1" Grid.Column="1"/>
+        <TextBox x:Name="Lastname" GotFocus="Lastname_GotFocus" LostFocus="Lastname_LostFocus" Text="Введите свою фамилию" Grid.Row="1" Grid.Column="1"/>
         <Button Click="Button_Click" Grid.Row="3" Grid.Column="1" Content="Save" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" FontFamily="SimSun" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" OpacityMask="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Padding="10,5,10,0" Cursor="AppStarting"/>
     </Grid>
 </Window>
