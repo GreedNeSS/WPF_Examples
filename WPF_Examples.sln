@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-create_code_in_cs", "1-cr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-events", "2-events\2-events.csproj", "{588659F9-19AC-4637-98BB-656E1A19E6E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-data", "3-data\3-data.csproj", "{67FE2345-6C7A-4E95-92E8-7F81AAA2AE3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{588659F9-19AC-4637-98BB-656E1A19E6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{588659F9-19AC-4637-98BB-656E1A19E6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{588659F9-19AC-4637-98BB-656E1A19E6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67FE2345-6C7A-4E95-92E8-7F81AAA2AE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FE2345-6C7A-4E95-92E8-7F81AAA2AE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FE2345-6C7A-4E95-92E8-7F81AAA2AE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FE2345-6C7A-4E95-92E8-7F81AAA2AE3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
